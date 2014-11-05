@@ -1,14 +1,7 @@
-#Red {
-  font-size: 72px;
-  color: rgb(255, 63, 54);
-}
-
-#Blue {
-  font-size: 72px;
-  color: rgb(37, 78, 255);
-}
-
-#Red {
-  font-size: 72px;
-  color: rgb(246, 244, 85);
+#MyNav {
+    padding-bottom: 46px;
+    color: #61F6A4;
+    background-color: #61F6A4;
+    border-color: #61F6A4;
+    outline-color: #61F6A4;
 }
