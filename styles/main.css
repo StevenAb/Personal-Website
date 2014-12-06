@@ -1,7 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100);
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('../Fonts/Lato-Hairline.ttf');
+}
+
 #MyNav {
     padding-bottom: 46px;
     color: #61F6A4;
     background-color: #61F6A4;
     border-color: #61F6A4;
     outline-color: #61F6A4;
+	margin: -1px;
+}
+
+.jumbotron {
+	margin-top: -21px;
+	background-image: url('../Images/Splash1.jpg');
+	height: 790px;
+}
+
+#Jumbo {
+	padding-top: 200px;
+}
+
+#JText {
+	margin-top: -50px;
+}
+
+h1 {
+	font-family: ‘Lato', sans-serif;
+	font-weight: 100;
 }
