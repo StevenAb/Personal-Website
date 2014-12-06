@@ -1,27 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
 
-@font-face {
-    font-family: 'Lato', sans-serif;
-    src: url('../Fonts/Lato-Hairline.ttf');
+body {
+	font-family: 'Lato', sans-serif;
 }
 
 #MyNav {
-    padding-bottom: 46px;
-    color: #61F6A4;
-    background-color: #61F6A4;
-    border-color: #61F6A4;
-    outline-color: #61F6A4;
+    background-color: #BA68C8;
 	margin: -1px;
 }
 
 .jumbotron {
-	margin-top: -21px;
-	background-image: url('../Images/Splash1.jpg');
-	height: 790px;
+	margin-top: -22px;
+	background-image: url('../Images/Splash.png');
+	height: 900px;
 }
 
 #Jumbo {
-	padding-top: 200px;
+	padding-top: 220px;
 }
 
 #JText {
@@ -30,5 +25,9 @@
 
 h1 {
 	font-family: ‘Lato', sans-serif;
-	font-weight: 100;
+	font-weight: 300;
+}
+
+a:link {
+	color: #FFFFFF;
 }
