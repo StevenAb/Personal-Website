@@ -35,3 +35,27 @@ a:link {
 a:visited {
 	color: #FFFFFF;
 }
+
+#about {
+	margin-top: -30px;
+	background-color: #EEEEEE;
+}
+
+#aboutbar {
+	padding-top: 30px;
+}
+
+#abouthead {
+	padding-top: 100px;
+	padding-bottom: 90px;
+	font-size: 40px;
+}
+
+#aboutitle {
+	padding-bottom: 10px;
+	background-color: #F8BBD0;
+}
+
+#plus {
+	padding-bottom: 10px;
+}
