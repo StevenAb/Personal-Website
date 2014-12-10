@@ -4,8 +4,14 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
 #MyNav {
-    background-color: #BA68C8;
+    background-color: #F50057;
 	margin: -1px;
 }
 
@@ -47,6 +53,7 @@ a:visited {
 
 #abouthead {
 	padding-top: 100px;
+	padding-top: 100px;
 	padding-bottom: 90px;
 	font-size: 40px;
 }
@@ -54,8 +61,17 @@ a:visited {
 #aboutitle {
 	padding-bottom: 10px;
 	background-color: #F8BBD0;
+	box-shadow: 3px 3px 1px #888888;
 }
 
 #plus {
 	padding-bottom: 10px;
+}
+
+#under {
+	margin-top: -5px;
+}
+
+#over {
+	margin-top: 7px;
 }
