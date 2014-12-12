@@ -15,9 +15,14 @@ p {
 	margin: -1px;
 }
 
+.parallax-window {
+    min-height: 250px;
+    background: transparent;
+}
+
 .jumbotron {
 	margin-top: -22px;
-	background-image: url('../Images/Splash.png');
+	background: transparent;
 	height: 750px;
 }
 
@@ -93,6 +98,11 @@ a:visited {
 #aboutfill {
 	background-color: #EEEEEE;
 	padding-bottom: 150px;;
+}
+
+#parallax1 {
+	padding-top: 250px;
+	background-image: url(../Images/p11.png);
 }
 
 #portfolio {
