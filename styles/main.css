@@ -10,6 +10,19 @@ p {
 	font-size: 20px;
 }
 
+a:link {
+	color: transparent;
+}
+
+a:visited {
+	color: transparent;
+}
+
+.navbar-header {
+	text-decoration-line: none;
+	text-decoration: none;
+}
+
 #MyNav {
     background-color: #E57373;
 	margin: -1px;
@@ -44,14 +57,6 @@ h1 {
 	font-weight: 300;
 }
 
-a:link {
-	color: #FFFFFF;
-}
-
-a:visited {
-	color: #FFFFFF;
-}
-
 #about {
 	margin-top: -30px;
 	background-color: #FFEBEE;
@@ -63,7 +68,7 @@ a:visited {
 	background-color: #E57373;
 	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
-    box-shadow: 0px 3px 10px 0px #888888;
+    box-shadow: 0px 3px 8px 0px #888888;
 }
 
 #aboutwords {
@@ -88,7 +93,7 @@ a:visited {
 	background-color: #E57373;
 	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
-    box-shadow: 0px 3px 10px 0px #888888;
+    box-shadow: 0px 3px 8px 0px #888888;
     }
 }
 
@@ -128,9 +133,29 @@ a:visited {
 	background-color: #64B5F6;
 	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
-    box-shadow: 0px 3px 10px 0px #888888;
+    box-shadow: 0px 3px 8px 0px #888888;
 }
 
 #portfoliotitletext {
 	margin-top: 12px
+}
+
+#portfoliodesciptions {
+	color: #000000;
+	background-color: #64B5F6;
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0px 3px 8px 0px #888888;
+}
+
+#lance {
+  background: -webkit-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F0C27B 10%, #4B1248 90%); /* W3C */ 
+}
+
+#portfoliounder {
+	padding-top: 60px;
 }
