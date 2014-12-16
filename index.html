@@ -41,8 +41,8 @@
 			<div id="Jumbo">
 				<div id="JText">
 					<center>
-						<h1 class="animated fadeInDown"><font color="#D50000">Hello, World!</font></h1>
-					<h2>
+						<h1 class="wow fadeInDown"><font color="#D50000">Hello, World!</font></h1>
+					<h2 class="wow fadeInDown">
 						<font color="#D50000">
 							<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
 						</font>
@@ -56,7 +56,7 @@
 				<div class="container-fluid">
 					<div class="col-md-4"></div>
 					<div class="col-md-4">
-						<h1 id="aboutme">
+						<h1 class="wow fadeInDown" id="aboutme">
 							<i class="fa fa-terminal"></i>
 							I'm Steven
 							<img src="Images/me.png" alt="me" height="25%" width="25%"></img>
@@ -68,6 +68,7 @@
 		</div>
 		<div id="aboutwords" class="container-fluid">
 			<div id="aboutbar">
+				<div class="wow fadeInLeft">
 				<div id="aboutitle" class="col-md-3">
 					<center>
 						<h1>
@@ -84,9 +85,13 @@
 					</p>
 				</div>
 				</div>
+				</div>
+				<div class="wow bounceIn">
 				<div id="plus" class="col-md-1">
 					<center><h1>+</h1></center>
 				</div>
+				</div>
+				<div class="wow fadeInUpBig">
 				<div id="aboutitle" class="col-md-4">
 					<center>
 						<h1>
@@ -103,9 +108,13 @@
 					</p>
 				</div>
 				</div>
+				</div>
+				<div class="wow bounceIn">
 				<div id="plus" class="col-md-1">
 					<center><h1>+</h1></center>
 				</div>
+				</div>
+				<div class="wow fadeInRight">
 				<div id="aboutitle" class="col-md-3">
 					<center>
 						<h1>
@@ -122,6 +131,7 @@
 					</p>
 				</div>
 				</div>
+				</div>
 			</div>
 		</div>
 		<div id="aboutfill" class="container-fluid">
@@ -131,7 +141,7 @@
 			<div id="portfoliotitle">
 				<div class="container-fluid" style="margin-top: 20px">
 					<div class="col-md-5"></div>
-					<div id="ptitle" class="col-md-2">
+					<div id="ptitle" class="col-md-2 wow zoomIn">
 						<center>
 							<h1 id="portfoliotitletext">
 								Portfolio
@@ -143,7 +153,7 @@
 			</div>
 			<div style="padding-bottom: 95px"></div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 wow fadeInLeft">
 					<center>
 					<img src="Images/offkey.jpg" width="100%">
 					<p id="portfoliodesciptions">
@@ -151,7 +161,7 @@
 					</p>
 					</center>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow fadeInDown">
 					<center>
 					<img src="Images/Logo.png" width="100%" id="lance">
 					<p id="portfoliodesciptions">
@@ -159,7 +169,7 @@
 					</p>
 					</center>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow fadeInRight">
 					<center>
 					<img src="Images/cap1.PNG" width="100%">
 					<p id="portfoliodesciptions">
@@ -169,7 +179,7 @@
 				</div>
 			</div>
 			<div class="row" id="portfoliounder">
-				<div class="col-md-4">
+				<div class="col-md-4 wow fadeInLeft">
 					<center>
 					<img src="Images/offkey.jpg" width="100%">
 					<p id="portfoliodesciptions">
@@ -177,7 +187,7 @@
 					</p>
 					</center>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow fadeInUp">
 					<center>
 					<img src="Images/Logo.png" width="100%" id="lance">
 					<p id="portfoliodesciptions">
@@ -185,7 +195,7 @@
 					</p>
 					</center>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 wow fadeInRight">
 					<center>
 					<img src="Images/cap1.PNG" width="100%">
 					<p id="portfoliodesciptions">
@@ -204,6 +214,11 @@
 
 		<!-- Parallax effect reference -->
 		<script src="scripts/parallax.min.js"></script>
+
+		<script src="scripts/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
 
 		<!--Scroll script refernce-->
 		<script src="scripts/modernizr.custom.js"></script>
