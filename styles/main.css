@@ -20,6 +20,11 @@ p {
     background: transparent;
 }
 
+.parallax-portfolio {
+	height: 100px;
+	background: transparent;
+}
+
 .jumbotron {
 	margin-top: -22px;
 	background: transparent;
@@ -49,19 +54,21 @@ a:visited {
 
 #about {
 	margin-top: -30px;
-	background-color: #EEEEEE;
+	background-color: #FFEBEE;
 }
 
 #aboutme {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #E57373;
-	box-shadow: 5px 4px 1px #888888;
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0px 1px 10px 0px #888888;
 }
 
 #aboutwords {
 	padding-top: 10px;
-	background-color: #EEEEEE;
+	background-color: #FFEBEE;
 }
 
 #aboutbar {
@@ -71,15 +78,18 @@ a:visited {
 #abouthead {
 	padding-top: 100px;
 	padding-top: 100px;
-	padding-bottom: 90px;
+	padding-bottom: 40px;
 	font-size: 40px;
-	background-color: #EEEEEE;
+	background-color: #FFEBEE;
 }
 
 #aboutitle {
 	padding-bottom: 10px;
 	background-color: #E57373;
-	box-shadow: 5px 4px 1px #888888;
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0px 1px 10px 0px #888888;
+    }
 }
 
 #plus {
@@ -92,27 +102,35 @@ a:visited {
 
 #over {
 	margin-top: 7px;
-	margin-left: 30px;
+	padding-left: 30px;
 }
 
 #aboutfill {
-	background-color: #EEEEEE;
-	padding-bottom: 150px;;
+	background-color: #FFEBEE;
+	padding-bottom: 100px;;
 }
 
 #parallax1 {
-	padding-top: 250px;
-	background-image: url(../Images/p11.png);
+	padding-top: 200px;
+	background: transparent;
 }
 
 #portfolio {
-	background-color: #7986CB;
+	background-color: #E3F2FD;
 }
 
 #portfoliotitle {
 	padding-top: 40px;
 }
 
-#white {
-	color: #FFFFFF;
+#ptitle {
+	padding-bottom: 0px;
+	background-color: #64B5F6;
+	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0px 1px 10px 0px #888888;
+}
+
+#portfoliotitletext {
+	margin-top: 12px
 }
